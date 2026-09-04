@@ -19,7 +19,7 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
       - name: Run unit tests
         working-directory: OrgeljahrAndroid
-        run: ./gradlew testDebugUnitTest
+        run: bash ./gradlew testDebugUnitTest
       - name: Build debug APK
         working-directory: OrgeljahrAndroid
-        run: ./gradlew assembleDebug
+        run: bash ./gradlew assembleDebug
