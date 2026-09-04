@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-08-26T14:34:52.372413+00:00",
+  "sources": [
+    {
+      "id": "wikipedia-eg-list",
+      "url": "https://de.wikipedia.org/wiki/Liste_der_Kirchenlieder_im_Evangelischen_Gesangbuch",
+      "scope": "EG number/title/category metadata"
+    },
+    {
+      "id": "ogtl-2018",
+      "url": "https://www.kirchenrecht-nordkirche.de/document/46600",
+      "scope": "official lectionary and hymn references"
+    },
+    {
+      "id": "orgeljahr-chorale-relations-v1",
+      "path": "chorale-relations-v1.json",
+      "scope": "manually reviewed EG tune and public-domain organ-work relations"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+# Betriebssystem und Editoren
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+
+# Android / Gradle
+**/.gradle/
+**/build/
+local.properties
+*.jks
+*.keystore
+
+# Lokale APK-Historie: Nur die aktuelle Demo wird veröffentlicht.
+*.apk
+!Cantus-Firmus-Demo-0.16.apk
+
+# Nicht ausgewählte Entwürfe; das finale v13 bleibt als Quelldatei erhalten.
+design/cantus-firmus-icon-concept-v*.png
+!design/cantus-firmus-icon-concept-v13.png
+
+# Eingestellter SwiftUI-Prototyp; das gepflegte Produkt ist die Android-App.
+/Orgeljahr/
+/Orgeljahr.xcodeproj/
+*.xcuserstate
+xcuserdata/
+DerivedData/
